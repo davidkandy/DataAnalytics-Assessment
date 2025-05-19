@@ -1,7 +1,7 @@
 # DataAnalytics-Assessment
 
 
-#Question 1 - High-Value Customers with Multiple Products
+# Question 1 - High-Value Customers with Multiple Products
 
 This SQL query identifies **high-value customers** who have **both a funded savings plan and a funded investment plan**, enabling data-driven **cross-selling opportunities**.
 
@@ -28,7 +28,7 @@ This SQL query identifies **high-value customers** who have **both a funded savi
 The result is **sorted by total deposits** (`total_deposits`) in descending order so that the highest-value customers appear at the top.
 
 
-#Question 2 - Transaction Frequency Analysis
+# Question 2 - Transaction Frequency Analysis
 
 This SQL query analyzes how frequently customers make transactions, enabling the **segmentation of users into behavioral categories** such as high, medium, or low-frequency users. It's ideal for finance teams looking to tailor communication, rewards, or product offerings based on customer activity.
 
@@ -55,7 +55,7 @@ This SQL query analyzes how frequently customers make transactions, enabling the
 The output is sorted from **highest to lowest frequency** to ensure business attention starts with the most engaged users.
 
 
-#Question 3 - Account Inactivity Alert
+# Question 3 - Account Inactivity Alert
 
 This SQL workflow identifies **active accounts (savings or investments)** with **no inflow transactions in the past 365 days**, helping operations teams flag dormant accounts for follow-up or intervention.
 
@@ -102,7 +102,7 @@ Focuses on transaction history older than 1 year — useful for calculating the 
 
 
 
-#Question 4 - Customer Lifetime Value (CLV) Estimation
+# Question 4 - Customer Lifetime Value (CLV) Estimation
 
 This SQL query estimates the **Customer Lifetime Value (CLV)** using a simplified model based on **account tenure** and **transaction volume**. It's built to help **marketing teams** identify the most valuable customers and optimize retention or upselling efforts.
 

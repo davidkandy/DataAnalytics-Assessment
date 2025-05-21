@@ -22,6 +22,7 @@ This SQL query identifies **high-value customers** who have **both a funded savi
 | `investment_count`| Number of funded investment accounts                   |
 | `total_deposits`  | Total confirmed deposits across both product types     |
 
+![image](https://github.com/user-attachments/assets/cc519d1d-064d-4aba-9c92-646f94253314)
 
 ## 📈 Sorting
 
@@ -50,6 +51,7 @@ This SQL query analyzes how frequently customers make transactions, enabling the
 | `customer_count`           | Number of customers in each category                         |
 | `avg_transactions_per_month` | Average monthly transactions for users in the category     |
 
+![image](https://github.com/user-attachments/assets/3b89b56b-0437-4eb7-98f5-2cdb6403b568)
 
 ## 📈 Sorting
 The output is sorted from **highest to lowest frequency** to ensure business attention starts with the most engaged users.
@@ -100,7 +102,7 @@ Focuses on transaction history older than 1 year — useful for calculating the 
 | `inactivity_days`       | Days since the last recorded transaction |
 | `last_transaction_date` | Date of the last recorded transaction    |
 
-
+![image](https://github.com/user-attachments/assets/1727a157-677e-4c9c-8145-eeb8fef64402)
 
 # Question 4 - Customer Lifetime Value (CLV) Estimation
 
@@ -133,6 +135,8 @@ CLV = (total_transactions / tenure_months) * 12 * avg_profit_per_transaction
 | `tenure_months`      | Number of months since the user joined    |
 | `total_transactions` | Number of transactions linked to the user |
 | `estimated_clv`      | Simplified annual CLV in currency units   |
+
+![image](https://github.com/user-attachments/assets/8a61cf5d-6fe9-48e6-9d92-c47b579f4392)
 
 ## 📈 Sorting
 Results are ordered by estimated_clv in descending order, showing the most valuable users at the top.
